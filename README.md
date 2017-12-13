@@ -4,3 +4,6 @@ My goal for this final project is to make an experience similar to an interactiv
 
 Update: 12/3
 I have just finished the javascript for my first page. When I first started the javascript for that page I planned on using anime.js. However, I ran into complications with the library and couldn't get it to work properly. Figuring that I didn't want to get stuck at this one point for too long I decided to go back to another library that I tried about before, GreenSock.js. Within the first minutes of using Greensock.js, things were already animating better than they were with anime.js. If I find that I still need it, I will go back to anime.js if need be.
+
+Update 12/13
+With the second page completely finished, I will admit to using anime.js on this page. Anime.js was able to meet the timing requirements with much more ease than anything from the greensock library could've. At this point in time, I think I am going to use anime.js again to finish off the last page of the project.
