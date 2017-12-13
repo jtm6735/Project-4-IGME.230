@@ -2,17 +2,15 @@ body{
     width: 800px;
     height: 700px;
     margin:0 auto;
-    border: 1px solid black;
 }
 
 .spaceHeader{
     height: 200px;
-    border: 1px solid black;
 }
 
 .bodyContent{
-    background-color: lightblue;
-    border: 1px solid black;
+    background-image: url("bar.png");
+    border: 2px solid black;
     height: 497px;
     /*Image needs to be 800x499*/
 }
@@ -31,14 +29,20 @@ body{
     text-align: center;
 }
 
-.hyBox, .merBox{
+.merBox{
     margin-top: 250px;
 }
 
+.hyBox{
+    margin-top: 240px;
+}
+
+.hyroFace{
+    width: 150px;
+    height: 150px;
+}
+
 .merFace{
-    position:absolute;
-    left: 190px;
-    top: 440px;
     width:140px;
     height: 140px;
 }
@@ -54,7 +58,6 @@ body{
     border-radius: 8px;
     border: 3px solid black;
     background-color: white;
-    margin-top: 130px;
 }
 
 #text{
@@ -73,9 +76,5 @@ body{
 #clicker{
     width: 90px;
     height: 90px;
+    background-image: url("button.png");
 }
-
-/* .clicker{
-    display: inline-block;
-    margin: 0 auto;
-} */

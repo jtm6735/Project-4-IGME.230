@@ -1,0 +1,94 @@
+body{
+    width: 800px;
+    height: 700px;
+    margin:0 auto;
+}
+
+.spaceHeader{
+    height: 200px;
+}
+
+.bodyContent{
+    background-image: url("mountainBG.png");
+    border: 2px solid black;
+    height: 497px;
+    /*Image needs to be 800x499*/
+}
+
+#merBox{
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.merFace{
+    width:90px;
+    height: 90px;
+}
+
+
+#mountBox{
+    margin: 0 auto;
+    width: 40%;
+    float: right;
+    text-align: center;
+    margin-top: 36px;
+    margin-right: 8%;
+}
+
+.mountButton{
+    width: 130px;
+    height: 100px;
+}
+
+.mountButton:hover{
+    cursor: pointer;
+}
+
+#town1Box{
+    margin-top: 120px;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.town1{
+    width: 75px;
+    height: 75px;
+}
+
+.town1:hover{
+    cursor: pointer;
+}
+
+#town2Box{
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+.town2{
+    width: 75px;
+    height: 75px;
+}
+
+.town2:hover{
+    cursor: pointer;
+}
+
+#textBox{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 95px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+
