@@ -1,0 +1,80 @@
+body{
+    width: 800px;
+    height: 700px;
+    margin:0 auto;
+    font-family: 'Spectral SC', serif;
+}
+
+.spaceHeader{
+    height: 200px;
+}
+
+.bodyContent{
+    background-image: url("mBackdrop.png");
+    border: 2px solid black;
+    height: 497px;
+}
+
+.homeButton{
+    height: 50px;
+    width: 50px;
+}
+
+#textBox{
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: darkred;
+}
+
+#text{
+    width: 72%;
+    margin: 0 auto;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.monBox{
+    margin: 0 auto;
+    width: 40%;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+
+.merBox{
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.merBox{
+    margin-top: 190px;
+    position: relative;
+}
+
+.monBox{
+    margin-top: 185px;
+}
+
+.monFace{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 0;
+}
+
+.merFace{
+    width:180px;
+    height:180px;
+    position: absolute;
+    z-index: 1;
+}

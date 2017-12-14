@@ -11,6 +11,16 @@
         window.location = "https://www.google.com/";
     }
 
+    function linkHome(){
+        window.location = "https://www.google.com/";
+    }
+
+    $(document).ready(function(){
+        $(".homeButton").click(function(){
+            linkHome();
+        })
+    })
+
     function advance(){
         if(counter == 0){
             // TweenMax.to(".merFace", 0.4, {scale:1.2, ease:Bounce.easeOut})

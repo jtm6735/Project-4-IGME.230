@@ -4,6 +4,16 @@ function nextPage(){
     window.location = "https://www.google.com/";
 }
 
+function linkHome(){
+    window.location = "https://www.google.com/";
+}
+
+$(document).ready(function(){
+    $(".homeButton").click(function(){
+        linkHome();
+    })
+})
+
 $(document).ready(function(){
     $(".town1").click(function(){
         document.getElementById("text").innerHTML="That is not the mountain. Go to the mountain.";
@@ -27,7 +37,7 @@ $(document).ready(function(){
         document.getElementById("text").innerHTML="That is not the mountain. Go to the mountain.";
         var town1Move = anime({
             targets: '.merFace',
-            translateX: 400,
+            translateX: 320,
             duration: 2000,
             translateY: -40,
             complete: function(){
@@ -44,7 +54,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".mountButton").click(function(){
         document.getElementById("text").innerHTML="Hyro went to the mountains!";
-        setTimeout(function(){window.location = "https://www.google.com/";}, 2500);
+        setTimeout(function(){window.location = "https://www.google.com/";}, 1000);
         var town1Move = anime({
             targets: '.merFace',
             translateX: 350,

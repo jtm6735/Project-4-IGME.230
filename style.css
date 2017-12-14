@@ -2,6 +2,7 @@ body{
     width: 800px;
     height: 700px;
     margin:0 auto;
+    font-family: 'Spectral SC', serif;
 }
 
 .spaceHeader{
@@ -12,7 +13,6 @@ body{
     background-image: url("bar.png");
     border: 2px solid black;
     height: 497px;
-    /*Image needs to be 800x499*/
 }
 
 .hyBox{
@@ -30,11 +30,11 @@ body{
 }
 
 .merBox{
-    margin-top: 250px;
+    margin-top: 190px;
 }
 
 .hyBox{
-    margin-top: 240px;
+    margin-top: 185px;
 }
 
 .hyroFace{
@@ -45,6 +45,11 @@ body{
 .merFace{
     width:140px;
     height: 140px;
+}
+
+.homeButton{
+    height: 50px;
+    width: 50px;
 }
 
 #textBox{

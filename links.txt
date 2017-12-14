@@ -1,2 +1,11 @@
-background photo
+background photo - mountain
 http://all-free-download.com/free-vector/download/cartoon-mountains-landscapes-vector-graphics_547025.html
+
+background photo - bar
+https://www.pinterest.com/pin/543880092476520690
+
+background photo - mBackdrop
+http://finalfantasy.wikia.com/wiki/Thunder_Summit
+
+alternative text border color
+https://stackoverflow.com/questions/2570972/css-font-border
