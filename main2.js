@@ -20,6 +20,7 @@ $(document).ready(function(){
                 anime({
                     targets:'.merFace',
                     translateX: 10,
+                    easing: 'easeInOutSine',
                     translateY: 10
                 });
             }
@@ -39,6 +40,7 @@ $(document).ready(function(){
                 anime({
                     targets:'.merFace',
                     translateX: 10,
+                    easing: 'easeInOutSine',
                     translateY: 10
                 });
             }
@@ -49,11 +51,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".mountButton").click(function(){
         document.getElementById("text").innerHTML="Hyro went to the mountains!";
-        setTimeout(function(){window.location = "https://people.rit.edu/jtm6735/igme230/proj4/animPage3.html";}, 1000);
+        setTimeout(function(){window.location = "https://people.rit.edu/jtm6735/igme230/proj4/animPage3.html";}, 900);
         var town1Move = anime({
             targets: '.merFace',
+            easing: 'easeInOutSine',
             translateX: 350,
-            duration: 2000,
+            duration: 500,
             translateY: -190
         });  
     });
