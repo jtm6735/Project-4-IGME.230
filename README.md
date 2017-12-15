@@ -7,3 +7,6 @@ I have just finished the javascript for my first page. When I first started the 
 
 Update 12/13
 With the second page completely finished, I will admit to using anime.js on this page. Anime.js was able to meet the timing requirements with much more ease than anything from the greensock library could've. At this point in time, I think I am going to use anime.js again to finish off the last page of the project.
+
+Final Update 12/14
+Every final version has been uploaded to Github. Site has been checked. Everything is working as intended.
