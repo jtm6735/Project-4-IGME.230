@@ -8,11 +8,11 @@
 
     // Create method for using button as a link
     function linkChange(){
-        window.location = "https://www.google.com/";
+        window.location = "https://people.rit.edu/jtm6735/igme230/proj4/animPage2.html";
     }
 
     function linkHome(){
-        window.location = "https://www.google.com/";
+        window.location = "https://people.rit.edu/jtm6735/igme230/proj4/";
     }
 
     $(document).ready(function(){

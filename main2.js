@@ -1,11 +1,6 @@
 
-
-function nextPage(){
-    window.location = "https://www.google.com/";
-}
-
 function linkHome(){
-    window.location = "https://www.google.com/";
+    window.location = "https://people.rit.edu/jtm6735/igme230/proj4/";
 }
 
 $(document).ready(function(){
@@ -54,7 +49,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".mountButton").click(function(){
         document.getElementById("text").innerHTML="Hyro went to the mountains!";
-        setTimeout(function(){window.location = "https://www.google.com/";}, 1000);
+        setTimeout(function(){window.location = "https://people.rit.edu/jtm6735/igme230/proj4/animPage3.html";}, 1000);
         var town1Move = anime({
             targets: '.merFace',
             translateX: 350,

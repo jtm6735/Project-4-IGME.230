@@ -1,3 +1,8 @@
+/*
+    The width of the body is set to be 800 pixels. The height is set to 700 pixels.
+    The margin 0 auto will have the body float in the center of the page. The font family
+    uses the imported google font
+*/
 body{
     width: 800px;
     height: 700px;
@@ -5,22 +10,38 @@ body{
     font-family: 'Spectral SC', serif;
 }
 
+/*
+    This header is used as a spacing tool, putting the content in the middle of the window
+*/
 .spaceHeader{
     height: 200px;
 }
 
+/*
+    The background is set to be a local image. There will be a 2 pixel solid black border
+    The height of this box is set to 497 pixels.
+*/
 .bodyContent{
     background-image: url("mountainBG.png");
     border: 2px solid black;
     height: 497px;
 }
 
+/*
+    The height and width of this image is set to be 50 pixels.
+*/
 .homeButton{
     height: 50px;
     width: 50px;
-    opacity: 80%;
+    cursor: pointer;
 }
 
+/*
+    The display:inline-block is made so that the boxes can be aligned next to on another. The width
+    of this box is being set to 40% of the box that contains it. The margin 0 auto has it float towards
+    center of the box it is in. The text aligns to the center of this box. The margin-top gives 80 pixels
+    of space to the top of the box.
+*/
 #merBox{
     display: inline-block;
     width: 40%;
@@ -29,12 +50,18 @@ body{
     margin-top: 80px;
 }
 
+/*
+    The width and height of the image is set to be 90 pixels
+*/
 .merFace{
     width:90px;
     height: 90px;
 }
 
-
+/*
+    The box is made to float within the center thanks to the margin: 0 auto. The width of the box is set
+    to be 40% of the box that contains it. Float right makes it float to the right of the box
+*/
 #mountBox{
     margin: 0 auto;
     width: 40%;
@@ -44,44 +71,81 @@ body{
     margin-right: 8%;
 }
 
+/*
+    Sets the width of the image to 130 pixels. It also sets the height of the image to 100 pixels
+*/
 .mountButton{
     width: 130px;
     height: 100px;
 }
 
+/*
+    When the mouse hovers over the image, the mouse is turned into a pointed as to signal the user
+    can click on the image.
+*/
 .mountButton:hover{
     cursor: pointer;
 }
 
+/*
+    The margin-top adds 90 pixels of space from the top of the box this div is in. The
+    size of the div tag will be set to 40% of the the box that carries it. The margin-left
+    adds a 5% room of space to the left of the box it is in.
+*/
 #town1Box{
     margin-top: 90px;
     width: 40%;
     margin-left: 5%;
 }
 
+/*
+    The width and height of the object is to be set to 75 pixels
+*/
 .town1{
     width: 75px;
     height: 75px;
 }
 
+/*
+    When the mouse hovers over the image, the mouse is turned into a pointed as to signal the user
+    can click on the image.
+*/
 .town1:hover{
     cursor: pointer;
 }
 
+/*
+    The width is set to be 40% the size of the box that contains this div tag. The float is used 
+    to make the box float to the right side
+*/
 #town2Box{
     width: 40%;
     float: right;
 }
 
+/*
+    The width and height of the object is to be set to 75 pixels
+*/
 .town2{
     width: 75px;
     height: 75px;
 }
 
+/*
+    When the mouse hovers over the image, the mouse is turned into a pointed as to signal the user
+    can click on the image.
+*/
 .town2:hover{
     cursor: pointer;
 }
 
+/*
+    Margin 0 auto allows the textbox to float in the middle of the box it is in. The width is 
+    set to be 80% of the width of the box it is in. The height of the textbox is set to be 85 pixels.
+    The font-size will be set to be 18 pixels in size. The border radius adds curved corners to the
+    textbox. The padding gives text a way to seemingly float closer to the center of the text box.
+    The border gives a 3 pixel solid black border. The background color is set to being white.
+*/
 #textBox{
     position: relative;
     margin: 0 auto;

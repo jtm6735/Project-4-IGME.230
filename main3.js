@@ -1,6 +1,6 @@
 
     function linkHome(){
-        window.location = "https://www.google.com/";
+        window.location = "https://people.rit.edu/jtm6735/igme230/proj4/";
     }
 
     $(document).ready(function(){
@@ -12,7 +12,6 @@
     TweenMax.to("#text", 0.4, {scale:1.2, repeat:-1});
 
     TweenMax.to(".monFace", 0.6, {scale:1.1, repeat:-1});
-    // TweenMax.to(".monFace", 0.2, {rotateX:30});
 
     function hyroAttack(){
         TweenMax.to(".merFace", 0.4, {left:530});
@@ -30,21 +29,3 @@
             monsterGone();
         });
     });
-
-
-
-    // var attack = anime({
-    //     targets: '.merFace',
-    //     translateX:420,
-    //     easing: 'easeInOutSine',
-    //     duration: 460,
-    //     complete: function(){
-    //         anime({
-    //             targets:'.monFace',
-    //             translateX: 50,
-    //             translateY: -20,
-    //             duration: 640,
-    //             opacity: 0
-    //         })
-    //     }
-    // });

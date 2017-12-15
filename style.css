@@ -1,3 +1,8 @@
+/*
+    The width of the body is set to be 800 pixels. The height is set to 700 pixels.
+    The margin 0 auto will have the body float in the center of the page. The font family
+    uses the imported google font
+*/
 body{
     width: 800px;
     height: 700px;
@@ -5,16 +10,37 @@ body{
     font-family: 'Spectral SC', serif;
 }
 
+/*
+    This header is used as a spacing tool, putting the content in the middle of the window
+*/
 .spaceHeader{
     height: 200px;
 }
 
+/*
+    The background is set to be a local image. There will be a 2 pixel solid black border
+    The height of this box is set to 497 pixels.
+*/
 .bodyContent{
     background-image: url("bar.png");
     border: 2px solid black;
     height: 497px;
 }
 
+/*
+    The height and width of this image is set to be 50 pixels.
+*/
+.homeButton{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/*
+    The margin 0 auto spaces the box to the center of the box it is in. The 40% width sets this 
+    div element to this to be 40% of the box it is in. This will float to the right side of the box. 
+    The text aligns to the center of the box. 
+*/
 .hyBox{
     margin: 0 auto;
     width: 40%;
@@ -22,6 +48,11 @@ body{
     text-align: center;
 }
 
+/*
+    The display:inline-block is made so that the boxes can be aligned next to on another. The width
+    of this box is being set to 40% of the box that contains it. The margin 0 auto has it float towards
+    center of the box it is in. The text aligns to the center of this box.
+*/
 .merBox{
     display: inline-block;
     width: 40%;
@@ -29,29 +60,43 @@ body{
     text-align: center;
 }
 
+/*
+    This puts 190 pixels of space from the top
+*/
 .merBox{
     margin-top: 190px;
 }
 
+/*
+    This puts 185 pixels of space from the top
+*/
 .hyBox{
     margin-top: 185px;
 }
 
+/*
+    The width and height of the object is to be set to 150 pixels
+*/
 .hyroFace{
     width: 150px;
     height: 150px;
 }
 
+/*
+    The width and height of the object is to be set to 140 pixels
+*/
 .merFace{
     width:140px;
     height: 140px;
 }
 
-.homeButton{
-    height: 50px;
-    width: 50px;
-}
-
+/*
+    Margin 0 auto allows the textbox to float in the middle of the box it is in. The width is 
+    set to be 80% of the width of the box it is in. The height of the textbox is set to be 85 pixels.
+    The font-size will be set to be 18 pixels in size. The border radius adds curved corners to the
+    textbox. The padding gives text a way to seemingly float closer to the center of the text box.
+    The border gives a 3 pixel solid black border. The background color is set to being white.
+*/
 #textBox{
     position: relative;
     margin: 0 auto;
@@ -65,11 +110,21 @@ body{
     background-color: white;
 }
 
+/*
+    The width for the text within the textbox is 72% of the textbox. The text will float to left
+    of the box it is in
+*/
 #text{
     width: 72%;
     float: left;
 }
 
+/*
+    The inline-block lets the button be positioned next to the text. The width of the button is set
+    to be 20% of the box it is in. The margin has it float towards the center of the box it is in.
+    There are 50 pixels of spacing to the left of the button. There is also 2 pixels of spacing on the 
+    top of the button
+*/
 #mButton{
     display: inline-block;
     width: 20%;
@@ -78,6 +133,10 @@ body{
     margin-top: 2px;
 }
 
+/*
+    The width and height of the object is to be set to 90 pixels. The background image is
+    set to be that of a local image
+*/
 #clicker{
     width: 90px;
     height: 90px;

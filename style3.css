@@ -1,3 +1,8 @@
+/*
+    The width of the body is set to be 800 pixels. The height is set to 700 pixels.
+    The margin 0 auto will have the body float in the center of the page. The font family
+    uses the imported google font
+*/
 body{
     width: 800px;
     height: 700px;
@@ -5,21 +10,39 @@ body{
     font-family: 'Spectral SC', serif;
 }
 
+/*
+    This header is used as a spacing tool, putting the content in the middle of the window
+*/
 .spaceHeader{
     height: 200px;
 }
 
+/*
+    The background is set to be a local image. There will be a 2 pixel solid black border
+    The height of this box is set to 497 pixels.
+*/
 .bodyContent{
     background-image: url("mBackdrop.png");
     border: 2px solid black;
     height: 497px;
 }
 
+/*
+    The height and width of this image is set to be 50 pixels.
+*/
 .homeButton{
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
+/*
+    Margin 0 auto allows the textbox to float in the middle of the box it is in. The width is 
+    set to be 75% of the width of the box it is in. The height of the textbox is set to be 75 pixels.
+    The font-size will be set to be 42 pixels in size. The border radius adds curved corners to the
+    textbox. The padding gives text a way to seemingly float closer to the center of the text box.
+    The font-weight will be set to being bold. The color of the font is set to be a dark red.
+*/
 #textBox{
     position: relative;
     margin: 0 auto;
@@ -35,12 +58,23 @@ body{
     color: darkred;
 }
 
+/*
+    The width for the text within the textbox is 72% of the textbox. The margin 0 auto
+    will move the text to the center of the textbox. The text shadow essentially adds a 
+    border to the text
+*/
 #text{
     width: 72%;
     margin: 0 auto;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+/*
+    The margin 0 auto spaces the box to the center of the box it is in. The 40% width sets this 
+    div element to this to be 40% of the box it is in. This will float to the right side of the box. 
+    The text aligns to the center of the box. The relative position allows me
+    to use absolute positioning of elements inside of it. 
+*/
 .monBox{
     margin: 0 auto;
     width: 40%;
@@ -49,6 +83,11 @@ body{
     position: relative;
 }
 
+/*
+    The display:inline-block is made so that the boxes can be aligned next to on another. The width
+    of this box is being set to 40% of the box that contains it. The margin 0 auto has it float towards
+    center of the box it is in. The text aligns to the center of this box.
+*/
 .merBox{
     display: inline-block;
     width: 40%;
@@ -56,22 +95,40 @@ body{
     text-align: center;
 }
 
+/*
+    This puts 185 pixels of space from the top. The relative position allows me
+    to use absolute positioning of elements inside of it. 
+*/
 .merBox{
     margin-top: 190px;
     position: relative;
 }
 
+/*
+    This puts 185 pixels of space from the top
+*/
 .monBox{
     margin-top: 185px;
 }
 
+/*
+    The height and the width of the image are set to be 150 pixels. The absolute position
+    enables me to utilize the greensock javascript library. The z-index puts this image below
+    the other image
+*/
 .monFace{
     width: 150px;
     height: 150px;
     position: absolute;
     z-index: 0;
+    cursor: pointer;
 }
 
+/*
+    The height and the width of the image are set to be 180 pixels. The absolute position
+    enables me to utilize the greensock javascript library. The z-index puts this image above
+    the other image
+*/
 .merFace{
     width:180px;
     height:180px;

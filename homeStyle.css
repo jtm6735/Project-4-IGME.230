@@ -1,0 +1,194 @@
+
+/*
+    This each box in this the html file to run by certain settings. They will
+    all be displayed as a flex block. Afterwards, flex-direction directs it that each
+    flex box will be placed as though they are columns next to each other. 
+*/
+.HolyGrail,
+.HolyGrail-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+    Sets the minumum height of anything within the .HolyGrail tag to 100vh.
+*/
+.HolyGrail {
+    min-height: 96vh;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*
+    Flex: is used to set the properties of the dimension of the flex box to 1
+*/
+.HolyGrail-body {
+  flex: 1;
+}
+
+/*
+    The text align will bring the "Holy Grail" to the center of the header. However,
+    after doing so it didn't line up properly with the text underneath it. The margin-right
+    is used to correct that as it makes it appear to be more inline that it was before. Font size 
+    is used to make the text bigger while the padding is used to give the text more space to make
+    it look less congested.
+*/
+header{
+    text-align: center;
+    font-size: 400%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+/*
+    Simply changes the background color for the page
+*/
+body{
+    margin: 0 auto;
+    background: #ffd9b3;
+    font-family: 'Spectral SC', serif;
+}
+
+/*
+    This is used to center the images above the text they are placed in a div tag of
+*/
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+    The width of each picture would be set to 173 pixels. The height would be set to 109 pixels.
+    The box shadow creates a shadow from the right and bottom side of the picture. The shadow
+    is given an rgba color so that it is given an opacity.
+*/
+#pic1, #pic2, #pic3{
+    width: 173px;
+    height: 109px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+/*
+    When the mouse hovers over the image, the mouse is turned into a pointed as to signal the user
+    can click on the image.
+*/
+#pic1:hover, #pic2:hover, #pic3:hover{
+    cursor: pointer;
+}
+
+/*
+    Flex: is used to set the dimensions of the flex boxes.
+    0 is used for the growth and shrink factor while 12em is used for
+    the flex basis, or width.
+*/
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+/*
+    Order will put nav on the left since it is being labeled as -1.
+    -1 will go before the other flex boxes because they're order values are 0 and 1
+    The background color is used to set a white background with opacity of .5. This white 
+    background acts as a mask rather than a whole new background for the section.
+    The border creates a solid 3 pixels large black border.
+*/
+.HolyGrail-nav {
+  order: -1;
+}
+
+/*
+    Flex gives all of the dimensions of the box a value of 1.
+    The text will be aligned to the center of the box.As mentioned prior,
+    the box's background is not being used as a new background, but rather as
+    an opacity mask to lighten up the body's background. There is a solid 
+    black 3px sized border around the box.
+*/
+.HolyGrail-content{
+    flex: 1;
+    text-align: center;
+    max-width: 340px;
+}
+
+.HolyGrail-nav, .HolyGrail-ads, .HolyGrail-content{
+    margin: 0 auto;
+
+} 
+/*
+    The text will be aligned to the center of the box. As mentioned prior,
+    the box's background is not being used as a new background, but rather as
+    an opacity mask to lighten up the body's background. There is a solid 
+    black 3px sized border around the box.
+*/
+.HolyGrail-ads{
+    text-align: left;
+}
+
+/*
+    Font weight bolds the text. The text is alos 
+    aligned to the center.
+*/
+footer{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+/*
+    Changes to font size to be bigger.
+    Also aligns the text to be in the center.
+*/
+
+/*
+    Sets the font size of the text in the h1 elements
+*/
+h1{
+    font-size: 36px;
+}
+
+/*
+    Aligns the text in an h2 element to the center
+*/
+h2{
+    text-align: center;
+}
+
+/*
+    Aligns the text in an p element to the center
+*/
+p{
+    text-align: center;
+}
+
+/* 
+   The @media tag is for differentiating between a normal web browser and
+   a user who may be on their phone. Essentially, this changes how the
+   site is be viewed depending on who is viewing it.
+*/
+@media (min-width: 768px) {
+  /*
+    Instead of being columns, the flex boxes are turned into rows that stack.
+    The flex box is being created to have dimensions all of 1.
+  */
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+
+  /*
+    The flex bos is being created to have dimensions all of 1.
+  */
+  .HolyGrail-content {
+    flex: 1;
+  }
+
+  /*
+    The flex box's for the nav and ads is set to 0. However, the 
+    flex basis/width is being set to 12em.
+  */
+  .HolyGrail-nav, .HolyGrail-ads {
+    flex: 0 0 12em;
+  }
+}

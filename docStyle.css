@@ -1,0 +1,27 @@
+/*
+    Sets the text to the imported font from google. Sets the maximum width of the 
+    body content to 60% of the window size. The margin 0 auto will position the
+    content to be in the middle. Background is set to an color carried also from the index
+*/
+body{
+    font-family: 'Spectral SC', serif;
+    max-width: 60%;
+    margin: 0 auto;
+    background: #ffd9b3;
+}
+
+/*
+    Aligns the text of the header to the center. The border will put a 2 pixel
+    size black border on the bottom of the header
+*/
+header{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+
+/*
+    Simply aligns the text in the middle of the footer
+*/
+footer{
+    text-align: center;
+}
